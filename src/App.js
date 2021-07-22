@@ -14,7 +14,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <Router>
-      <main>
+      <main className="text-gray-400 bg-gray-900 body-font">
         <Header />
         <Navbar />
         <About />
