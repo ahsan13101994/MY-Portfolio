@@ -18,7 +18,6 @@ function App() {
         <Header />
         <Navbar />
         <About />
-        <Projects />
         <Resume />
         <Contact />
         <Portfolio />
