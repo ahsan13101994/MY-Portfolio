@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -12,7 +11,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <Router>
+
       <main className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
         <About />
@@ -21,7 +20,7 @@ function App() {
         <Portfolio />
         <Footer />
     </main>
-    </Router>
+  
   );
 }
 
