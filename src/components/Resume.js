@@ -2,20 +2,42 @@ import React from 'react';
 
 export default function Resume() {
     return (
-        <div>
-          <h1>Resume</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-            ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-            non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-            ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-            rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-            tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-            porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-            vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus.
-          </p>
+        <section id="skills">
+        <div className="container px-5 py-10 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+              Skills &amp; Technologies
+            </h1>
+            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            EMT, Fire-rescue, Scuba Diving, Disaster Management, Business Economics, Operational management, Marketing, Strong Inventory Management Skills, Leadership, Team work, Computer proficiency, great attention to detail.
+            </p>
+          </div>
+           {/* NEED TO ADD EXPERIENCE
+           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            {work.map((work) => (
+              <div key={work} className="p-2 sm:w-1/2 w-full">
+                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                  <span className="title-font font-medium text-white">
+                    {work}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+           */}
+          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            {skills.map((skill) => (
+              <div key={skill} className="p-2 sm:w-1/2 w-full">
+                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                  <span className="title-font font-medium text-white">
+                    {skill}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
+      </section>
       );
 }
+

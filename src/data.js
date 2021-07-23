@@ -54,3 +54,33 @@ export const portfolio = [
         repo: "https://github.com/ahsan13101994/work_dayplanner",
       },
   ];
+
+  export const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Manifest",
+    "Node",
+    "API",
+    "MYSQL",
+  ];
+
+   {/* NEED TO ADD EXPERIENCE
+ export const work = [
+    title: "Problem Solver",
+    place: "Amazon YYZ1",
+    date: "June 2020 - present",
+    description:"● Helping support daily department duties.
+           ● associates and verify SOPs compliance.
+           ● Reviewing and updating SOP’s as required.
+           ● Tracking and reporting ATS/labor hours.
+           ● Occasionally assisting with production duties.
+           ● Participating in Operational Excellence initiatives.
+           ● Maintaining a full understanding of workflow and daily production goals.
+           ● Ensuring successful area performance through tracking and reporting metrics.
+           ● Upholding all company health and safety, security, and operational policies and procedures.",
+  ];
+
+
+*/}
