@@ -1,23 +1,21 @@
 import React from "react";
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Navbar from './Components/Navbar';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Portfolio from './Components/Portfolio';
-import Footer from './Components/Footer';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
   return (
-
       <main className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
         <About />
-        <Resume />
-        <Contact />
         <Portfolio />
+        <Resume />    
+        <Contact />
         <Footer />
     </main>
   
