@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Header from './Components/Header';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Resume from './Components/Resume';
@@ -15,7 +14,6 @@ function App() {
   return (
     <Router>
       <main className="text-gray-400 bg-gray-900 body-font">
-        <Header />
         <Navbar />
         <About />
         <Resume />
