@@ -1,4 +1,5 @@
 import React from 'react';
+import { skills } from "../data";
 
 export default function Resume() {
     return (
