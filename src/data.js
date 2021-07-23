@@ -4,7 +4,7 @@ export const portfolio = [
       subtitle: "IndexDB, ServiceWorker, Manifest",
       description:
         "This budget tracker app allows the user to add and subtract funds from their tracker with or without a connection. Entering transactions offline, user's data will populate the total when brought back online.This application uses IndexDB, Service Workers and Web Manifest to enable offline functionality.",
-      image: "./project-1.gif",
+      image: "./plan_vacation_demo.gif",
       link: "https://budget1994.herokuapp.com/",
       repo:"https://github.com/ahsan13101994/Progressive_Budget",
     },
@@ -22,7 +22,7 @@ export const portfolio = [
       subtitle: "Node, ORM, Insomnia",
       description:
         "This ORM application that allows users to API POST, PUT, and DELETE routes in Insomnia Core.",
-      image: "./project-3.gif",
+      image: "./demo.png",
       link: "https://github.com/ahsan13101994/E-commerce_back-End",
       repo: "https://github.com/ahsan13101994/E-commerce_back-End",
     },
