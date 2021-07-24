@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Trailwind with [Create React App](https://github.com/facebook/create-react-app).
+
+Deployed Link to My Portfolio: https://ahsan13101994.github.io/MY-Portfolio/
+
 
 ## Available Scripts
 
@@ -44,6 +47,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn Tailwind and how to integrate it with React, check out:  [Tailwint documentation](https://tailwindcss.com/docs/guides/create-react-app).
 
 ### Code Splitting
 
