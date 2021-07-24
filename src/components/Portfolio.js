@@ -33,8 +33,18 @@ export default function Portfolio() {
                     {portfolio.title}
                   </h1>
                   <p className="leading-relaxed">{portfolio.description}</p>
-                  <button>Delpoy:{portfolio.link}</button>
-                  <button>Repo:{portfolio.repo}</button>
+                  <div className="flex justify-center">
+                <a
+                  src={portfolio.link}
+                  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                  Deploy
+                </a>
+                <a
+                  src={portfolio.repo}
+                  className="ml-4 inline-flex text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                  Repo
+                </a>
+              </div>
                 </div>
               </div>
             </a>

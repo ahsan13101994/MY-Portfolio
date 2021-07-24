@@ -1,44 +1,41 @@
 import React from 'react';
-import { skills } from "../data";
+import { resume } from "../data";
 
 export default function Resume() {
-    return (
-        <section id="skills">
-        <div className="container px-5 py-10 mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-              Skills &amp; Technologies
-            </h1>
-            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            EMT, Fire-rescue, Scuba Diving, Disaster Management, Business Economics, Operational management, Marketing, Strong Inventory Management Skills, Leadership, Team work, Computer proficiency, great attention to detail.
-            </p>
-          </div>
-           {/* NEED TO ADD EXPERIENCE
-           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            {work.map((work) => (
-              <div key={work} className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                  <span className="title-font font-medium text-white">
-                    {work}
+  return (
+    <section id="resume">
+      <div className="container px-5 py-10 mx-auto text-center">
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
+          Resume
+        </h1>
+        <div className="flex flex-wrap m-4">
+          {resume.map((resume) => (
+            <div className="p-4 md:w-1/2 w-full">
+              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+              <div className="inline-flex items-center">
+                  <img
+                    alt="testimonial"
+                    src={resume.image}
+                    className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+                  <span className="flex-grow flex flex-col pl-4">
+                    <span className="title-font font-medium text-white">
+                      {resume.name}
+                    </span>
+                    <span className="text-gray-500 text-sm uppercase">
+                      {resume.company}
+                    </span>
                   </span>
                 </div>
+                <p className="leading-relaxed text-gray-500 text-sm mt-2 ">{resume.date}</p>
+                <p className="leading-relaxed text-gray-500 text-sm mb-2 ">{resume.position}</p>
+                <p className="leading-relaxed mb-6">{resume.quote}</p>
+               
               </div>
-            ))}
-          </div>
-           */}
-          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            {skills.map((skill) => (
-              <div key={skill} className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                  <span className="title-font font-medium text-white">
-                    {skill}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-      </section>
-      );
+      </div>
+    </section>
+  );
 }
-

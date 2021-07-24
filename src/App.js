@@ -6,6 +6,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         <Navbar />
         <About />
         <Portfolio />
-        <Resume />    
+        <Resume /> 
+        <Skills />    
         <Contact />
         <Footer />
     </main>
