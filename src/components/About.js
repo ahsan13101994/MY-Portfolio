@@ -12,7 +12,7 @@ export default function About() {
               </h1>
               <p className="mb-8 leading-relaxed">
               Based in Toronto Canada. 
-                I am currently working to earn the Full Stack Developer from University of Toronto. 
+             The Full Stack Developer from University of Toronto. 
                 I am an ex-firefighter in Emergency Services Rescue 1122, now making a career switch due to my increasing interest in coding and web development.
               </p>
               <div className="flex justify-center">
