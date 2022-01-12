@@ -7,13 +7,13 @@ export default function About() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                 Hi, I'm Syed Ahsan Rizvi.
-                <br className="hidden lg:inline-block" /> Working to become a 
+                <br className="hidden lg:inline-block" /> 
                 Full Stack Developer
               </h1>
               <p className="mb-8 leading-relaxed">
               Based in Toronto Canada. 
-             The Full Stack Developer from University of Toronto. 
-                I am an ex-firefighter in Emergency Services Rescue 1122, now making a career switch due to my increasing interest in coding and web development.
+              I am a Full Stack Developer, graduated from University of Toronto Bootcamp. 
+              I am an ex-firefighter in Emergency Services Rescue 1122, now making a career switch due to my increasing interest in coding and web development.
               </p>
               <div className="flex justify-center">
                 <a
